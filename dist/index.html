@@ -14,6 +14,22 @@
 <body>
     <div class="container">
         <h1>Leaderboard</h1>
+        <div class="container-grid"> 
+            <div class="container-size">
+                <div class="container-recent-header">
+                    <h2>Recent scores</h2>
+                    <button type="button">Refresh</button>
+                </div>
+                <div id="board" class="container-articles">
+                </div>
+            </div>
+            <form id="formAddScore" class="container-size">
+                <h2>Add you score</h2>
+                <input id="name" name="name" placeholder="Your Name" autocomplete="off" required />
+                <input id="score" name="score" placeholder="Your Score" maxlength="5" autocomplete="off" required />
+                <button type="submit" class="float-right">Submit</button>
+            </form>
+        </div>
     </div>
 </body>
 </html>

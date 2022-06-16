@@ -1,34 +1,94 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
-
-:root {
-  --color-primary: tomato;
-  --color-primary-rgb: 255, 99, 71;
-  --color-line: #ddd;
-  --opacity: 0.33;
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+article {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
 body {
   height: 100%;
 }
 
+button {
+  font-size: 1rem;
+  padding: 8px 12px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
 html {
-  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   height: 100%;
 }
 
+input {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.art-even {
+  background-color: gainsboro;
+}
+
+.art-odd {
+  background-color: white;
+}
+
+.float-right {
+  float: right;
+}
+
 .container {
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 16px;
+  width: 100%;
+}
+
+.container-articles {
+  height: auto;
+  border: 1px solid black;
+  width: 100%;
+}
+
+.container-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 5vw;
+}
+
+.container-recent-header {
   align-items: center;
   display: flex;
-  justify-content: center;
-  min-height: 100%;
-  padding: 40px 0;
-  width: 100%;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX DESKTOP VERSION XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+@media screen and (min-width: 768px) {
+  .container-grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
