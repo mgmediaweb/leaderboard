@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Leaderboard
 
-> Todo List.
+> Information comming soon.
 
 
 ## Built With
@@ -10,11 +10,12 @@
 - HTML5
 - CSS3
 - JAVASCRIPT ES6
+- API
 - WEBPACK
 
 ## Live Demo
 
-[Live Demo Link](https://mgmediaweb.github.io/webpack/dist/)
+[Live Demo Link](https://mgmediaweb.github.io/leaderboard/dist/)
 
 
 ## Getting Started
@@ -36,6 +37,7 @@ Thanks for watching
 - Lintern
 - Eslint
 - Webhint
+- node_modules checker
 
 ## Authors
 
