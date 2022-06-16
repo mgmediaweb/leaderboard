@@ -2,7 +2,7 @@
 
 # Leaderboard
 
-> Information comming soon.
+> this application lists the scores of players of a certain game (determined by the user), in this app the Leaderboard REST API is used, where the participants and their scores are registered.
 
 
 ## Built With
@@ -10,19 +10,12 @@
 - HTML5
 - CSS3
 - JAVASCRIPT ES6
-- API
+- API REST
 - WEBPACK
 
 ## Live Demo
 
 [Live Demo Link](https://mgmediaweb.github.io/leaderboard/dist/)
-
-
-## Getting Started
-
-To view this document on your local computer, just clone this repository and view it in your preferred browser.
-
-Thanks for watching
 
 ### Prerequisites
 
@@ -30,7 +23,14 @@ Thanks for watching
 
 ### Install
 
+To view this document on your local computer:
+- Clone this repository.
+- Install dependencies (npm install).
+- Run Webpack Bundle (npm run start).
+
 ### Usage
+
+[Leaderboard REST API](https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3)
 
 ### Run tests
 
