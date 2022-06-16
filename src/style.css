@@ -30,6 +30,10 @@ button:hover {
   cursor: pointer;
 }
 
+button:disabled {
+  background-color: rgba(25, 25, 112, 0.25);
+}
+
 fieldset {
   padding: 10px;
   margin-bottom: 20px;
