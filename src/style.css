@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@400;500;600&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,15 +13,20 @@ article {
 }
 
 body {
+  background-color: azure;
   height: 100%;
 }
 
 button {
+  background-color: midnightblue;
+  color: white;
+  border: none;
   font-size: 1rem;
   padding: 8px 12px;
 }
 
 button:hover {
+  background-color: rgb(4, 4, 59);
   cursor: pointer;
 }
 
@@ -33,14 +40,17 @@ fieldset legend {
 }
 
 h1 {
+  color: midnightblue;
   margin-bottom: 20px;
 }
 
 h2 {
+  color: midnightblue;
   margin-bottom: 15px;
 }
 
 html {
+  font-family: 'Anek Latin', sans-serif;
   font-weight: 400;
   font-size: 16px;
   height: 100%;
@@ -56,7 +66,7 @@ input {
 }
 
 .art-even {
-  background-color: gainsboro;
+  background-color: LightCyan;
 }
 
 .art-odd {
