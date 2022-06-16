@@ -1,7 +1,6 @@
 import Scores from './scores.js';
 import './style.css';
 
-const board = document.getElementById('board');
 const form = document.getElementById('formAddScore');
 
 Scores.show();
