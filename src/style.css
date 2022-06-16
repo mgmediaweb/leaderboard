@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@400;500;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+body {
+  background-color: azure;
+  height: 100%;
+}
+
+button {
+  background-color: midnightblue;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  padding: 8px 12px;
+}
+
+button:hover {
+  background-color: rgb(4, 4, 59);
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: rgba(25, 25, 112, 0.25);
+}
+
+fieldset {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+fieldset legend {
+  padding: 0 10px;
+}
+
+h1 {
+  color: midnightblue;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: midnightblue;
+  margin-bottom: 15px;
+}
+
+html {
+  font-family: 'Anek Latin', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  height: 100%;
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+}
+
+.add-margin-bottom {
+  margin-bottom: 10px;
+}
+
+.art-even {
+  background-color: lightcyan;
+}
+
+.art-odd {
+  background-color: white;
+}
+
+.float-right {
+  float: right;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 16px;
+  width: 100%;
+}
+
+.container-articles {
+  height: auto;
+  border: 1px solid black;
+  width: 100%;
+}
+
+.container-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 5vw;
+}
+
+.container-recent-header {
+  align-items: center;
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+.score-empty {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+}
+
+#btnGameNew {
+  display: none;
+}
+
+#formCreateGame {
+  display: flex;
+}
+
+#formCreateGame input {
+  margin-right: 10px;
+}
+
+#formAddScore input {
+  margin-bottom: 10px;
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX DESKTOP VERSION XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+@media screen and (min-width: 768px) {
+  .container-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

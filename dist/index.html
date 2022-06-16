@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+        crossorigin="anonymous"
+    />    
+    <title>Leaderboard</title>
+<script defer src="./runtime.bundle.js"></script><script defer src="./main.bundle.js"></script></head>
+<body>
+    <div class="container">
+        <h1>Leaderboard</h1>
+
+        <fieldset>
+            <legend>Your Game</legend>
+            <form id="formCreateGame">
+                <input id="game" placeholder="Insert Game Name" autocomplete="off" required />
+                <button id="btnGameCreate" type="submit">Create</button>
+                <button id="btnGameNew" type="button">New</button>
+            </form>
+        </fieldset>        
+
+        <div class="container-grid"> 
+            <div class="container-size">
+                <div class="container-recent-header">
+                    <h2>Recent scores</h2>
+                    <button id="btnRefresh" type="button" onClick="refresh()">Refresh</button>
+                </div>
+                <div id="board" class="container-articles">
+                    <div class="score-empty"><p>No scores availables</p></div>
+                </div>
+            </div>
+            <form id="formAddScore" class="container-size">
+                <h2>Add you score</h2>
+                <input id="user" placeholder="Your Name" autocomplete="off" required />
+                <input id="score" placeholder="Your Score" maxlength="5" autocomplete="off" required />
+                <button id="btnAdd" type="submit" class="float-right">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

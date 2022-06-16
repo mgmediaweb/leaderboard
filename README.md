@@ -1,28 +1,21 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Leaderboard
 
-> Description the project.
+> this application lists the scores of players of a certain game (determined by the user), in this app the Leaderboard REST API is used, where the participants and their scores are registered.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML5
+- CSS3
+- JAVASCRIPT ES6
+- API REST
+- WEBPACK
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+[Live Demo Link](https://mgmediaweb.github.io/leaderboard/dist/)
 
 ### Prerequisites
 
@@ -30,27 +23,29 @@ To get a local copy up and running follow these simple example steps.
 
 ### Install
 
+To view this document on your local computer:
+- Clone this repository.
+- Install dependencies (npm install).
+- Run Webpack Bundle (npm run start).
+
 ### Usage
+
+[Leaderboard REST API](https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3)
 
 ### Run tests
 
-### Deployment
-
-
+- Lintern
+- Eslint
+- Webhint
+- node_modules checker
 
 ## Authors
 
-👤 **Author1**
+👤 **Gonzalo A. Medina**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@mgmediaweb](https://github.com/mgmediaweb)
+- LinkedIn: [gonzalo-medina-g](https://www.linkedin.com/in/gonzalo-medina-g/)
+- Twitter: [@GonzoMedinaDev](https://twitter.com/GonzoMedinaDev)
 
 ## 🤝 Contributing
 
